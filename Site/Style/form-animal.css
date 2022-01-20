@@ -1,0 +1,110 @@
+.container {
+    /* max-width: 50%; */
+    background: #ffffff42;
+    padding: 25px 35px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.container-form {
+    width: 400px;
+    background-color: #ffffff42;
+    padding: 25px 35px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column; 
+}
+
+#table-container{
+    gap: 40px;
+}
+
+.container .title, .container-form .title{
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before, .container-form .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: rgb(38, 83, 53);
+}
+
+.container form .animal-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+form .animal-details .input-box{
+    margin-bottom: 5px;
+    margin: 10px 0 12px 0;
+}
+
+.animal-details .input-box .details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.animal-details .input-box input{
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1.5px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.animal-details .input-box input:focus{
+    border-color:rgb(38, 83, 53);
+}
+
+form .container-button{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+form .button input, .button button{
+    align-content: stretch;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #04AA6D;
+    border-radius: 5px;
+}
+
+form .button{
+    height: 38px;
+    margin: 16px 0;
+}
+
+form .left-button, button{
+    align-content: stretch;
+    outline: none;
+    color: #fff;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
