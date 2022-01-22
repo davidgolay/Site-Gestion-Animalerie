@@ -1,6 +1,6 @@
 # :question: Le projet en quelques points :question:
 <i> Ce projet a été réalisé dans le cadre d'un TP de 2ème d'IUT informatique en une vingtaine d'heures (noté 20/20). </br>
-  Il sagit d'un site permettant de gérer les animaux (criant) d'une animalerie fictive. </i> </br>
+  Il s'agit d'un site permettant de gérer les animaux (criant) d'une animalerie fictive. </i> </br>
   :bulb: Les principales fonctionnalités étant <b> l'ajout, la suppression, la modification, la recherche et le listage </b> d'instances "d'animaux" (relié à une Database). </br>
 
 ## 📜 Classes et scripts PHP
