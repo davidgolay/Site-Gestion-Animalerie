@@ -1,8 +1,5 @@
-# Protosite de gestion d'animalerie
-
-Ce projet a été réalisé dans le cadre d'un TP de 2ème d'IUT informatique en une vingtaine d'heures.
-
 # ☑️ Le TP en quelques points 
+<i> Ce projet a été réalisé dans le cadre d'un TP de 2ème d'IUT informatique en une vingtaine d'heures (noté 20/20). Il sagit d'un site permettant de gérer les animaux (criant) d'une animalerie fictive </i>
 
 ## 📜 Classes et scripts PHP
 •	Classe utilitaire pour générer du contenu HTML, attributs, identifiant </br>
