@@ -16,7 +16,7 @@
 •	Possibilité de supprimer tous les animaux (filtrés) d’un coup. </br>
 
 ## 🛡️ Sécurité et confort
-•	Gestion des caractère spéciaux pour éviter les injection SQL </br>
+•	Gestion des caractères spéciaux pour éviter les injections SQL </br>
 •	Redirection vers l’index </br> 
 •	Gestion des exceptions de PDO </br>
 •	Vérification des champs qui doivent être non vide </br>
